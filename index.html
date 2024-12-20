@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 3D Artist</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #f5f5f5;
+            background: linear-gradient(135deg, #1e1e2f, #2a2a3d);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header img {
+            height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f5f5f5;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 50px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        section h1, section h2 {
+            text-align: center;
+            color: #00bcd4;
+        }
+
+        section p {
+            text-align: center;
+        }
+
+        #portfolio .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #portfolio .gallery .item {
+            flex: 1 1 calc(33.333% - 20px);
+            max-width: calc(33.333% - 20px);
+            border-radius: 10px;
+            overflow: hidden;
+            background: #1e1e2f;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        #portfolio .gallery .item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        #portfolio .gallery .item p {
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #f5f5f5;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        footer {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.9);
+            color: #f5f5f5;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo_M.png" alt="Logo de l'artiste">
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h1>Bienvenue sur mon portfolio 3D</h1>
+            <p>Découvrez mes créations réalisées sur Blender et plongez dans mon univers artistique.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="images/cyberpunk.jpg" alt="Création 1">
+                    <p>Création 1</p>
+                </div>
+                <div class="item">
+                    <img src="images/pokemon.jpg" alt="Création 2">
+                    <p>Création 2</p>
+                </div>
+                <div class="item">
+                    <img src="images/cyberpunk2.jpg" alt="Création 3">
+                    <p>Création 3</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="a-propos">
+            <h2>À propos</h2>
+            <p>Artiste 3D passionné, je me spécialise dans la création de modèles réalistes avec Blender, en explorant des univers sombres et captivants. Inspiré par l'horreur et le mystère, mon objectif est de donner vie à des idées uniques qui plongent le spectateur dans des ambiances immersives et intrigantes.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour toute demande ou collaboration, n'hésitez pas à me laisser un message via mes réseaux sociaux ou par email.</p>
+            <div class="contact-info">
+                <p><strong>Instagram :</strong>misstick11</p>
+                <p><strong>Discord :</strong>misstick#6502</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio 3D. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
