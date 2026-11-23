@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f0e5d0">
+  <meta name="description" content="Atelier d’impression 3D Misstick Realms. Pièces décoratives, prototypes et objets personnalisés, du modèle numérique à l’objet.">
+  <title>Misstick Realms — Impression 3D sur mesure</title>
+  <link rel="icon" href="assets/logo.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Special+Elite&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="atelier-motion.js" defer></script>
+  <script src="quote.js" defer></script>
+</head>
+<body id="accueil">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="header">
+    <div class="shell header-inner">
+      <a class="brand" href="#accueil">
+        <img src="assets/logo.webp" width="44" height="44" alt="">
+        <span>Misstick Realms <small>Atelier d’impression 3D</small></span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <a href="../index.html">Portfolio 3D</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#fabrication">Fabrication</a>
+        <a class="nav-quote" href="#devis">Demander un devis</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="shell hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Carnet d’atelier</p>
+        <h1 id="hero-title">Impression <span>3D sur mesure.</span></h1>
+        <p class="lead">Je donne forme à tes idées, de la petite pièce décorative au prototype personnalisé.</p>
+        <div class="intro-note">
+          <p class="typed-message" data-typewriter>Ouverture du carnet de fabrication…</p>
+          <button class="replay" type="button" hidden data-replay>Rejouer l’intro</button>
+        </div>
+        <div class="actions">
+          <a class="button button-primary" href="#devis">Décrire mon projet</a>
+          <a class="button button-outline" href="#realisations">Voir les réalisations</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <div><img src="assets/atelier-imprimantes.webp" width="1040" height="1848" fetchpriority="high" alt="Deux imprimantes 3D sur l’établi, sous une étagère de petites figurines colorées"></div>
+        <figcaption>Mon atelier d’impression 3D</figcaption>
+      </figure>
+    </section>
+
+    <section class="shell gallery" id="realisations" aria-labelledby="gallery-title">
+      <p class="eyebrow">Réalisations</p>
+      <h2 id="gallery-title">Portraits en relief</h2>
+      <div class="gallery-grid" data-reveal>
+        <figure class="gallery-print">
+          <div class="print-photo">
+            <img src="assets/portrait-chat-encadre.webp" width="1200" height="1600" alt="Portrait en relief d’un chat blanc aux yeux de couleurs différentes, dans un cadre noir" loading="lazy">
+          </div>
+          <figcaption>Chat blanc encadré</figcaption>
+        </figure>
+        <figure class="gallery-print">
+          <div class="print-photo print-photo-blue">
+            <img src="assets/portrait-chat-bleu.webp" width="1200" height="1600" alt="Portrait de chat tigré en relief, avec des touches bleu pâle" loading="lazy">
+          </div>
+          <figcaption>Portrait aux nuances bleues</figcaption>
+        </figure>
+        <figure class="gallery-print">
+          <div class="print-photo print-photo-green">
+            <img src="assets/portrait-chat-vert.webp" width="1200" height="1600" alt="Portrait de chat en relief, en vert, blanc et noir" loading="lazy">
+          </div>
+          <figcaption>Portrait aux accents verts</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section works" id="creations" aria-labelledby="works-title">
+      <div class="shell">
+        <h2 id="works-title" data-reveal>Ce qu’on peut fabriquer</h2>
+        <div class="works-grid">
+          <article data-reveal>
+            <h3>Décoration &amp; maquettes</h3>
+            <p>Des reliefs muraux, des éléments de diorama ou des miniatures à exposer.</p>
+          </article>
+          <article data-reveal>
+            <h3>Objets personnalisés</h3>
+            <p>Des objets, plaques ou cadeaux dessinés à partir de ton idée, de tes dimensions ou d’un modèle fourni.</p>
+          </article>
+          <article data-reveal>
+            <h3>Prototypes</h3>
+            <p>Une première version physique pour vérifier la taille, la prise en main ou l’assemblage d’une pièce.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fabrication" aria-labelledby="process-title">
+      <div class="shell process">
+        <div>
+          <p class="eyebrow">Fabrication</p>
+          <h2 id="process-title">De l’idée à la pièce</h2>
+          <ol class="steps" data-reveal>
+            <li><h3>Définir le projet</h3><p>Tu me décris la pièce, son usage et ses dimensions. Un croquis ou un fichier 3D aide à préciser la demande.</p></li>
+            <li><h3>Préparer le modèle</h3><p>Je vérifie le fichier ou je modélise la pièce. On choisit la matière et la finition en fonction de l’usage.</p></li>
+            <li><h3>Imprimer la pièce</h3><p>Une fois le projet et le devis validés, la fabrication peut commencer.</p></li>
+          </ol>
+        </div>
+        <aside class="material-note" data-reveal aria-labelledby="materials-title">
+          <h3 id="materials-title">Choisir la matière</h3>
+          <dl>
+            <div><dt>PLA</dt><dd>Décoration, maquettes et prototypes visuels.</dd></div>
+            <div><dt>PETG</dt><dd>Pièces pour lesquelles on recherche davantage de souplesse et de résistance aux chocs.</dd></div>
+            <div><dt>TPU</dt><dd>Pour les pièces qui doivent rester souples.</dd></div>
+            <div><dt>ASA</dt><dd>Pour les pièces d’extérieur exposées aux UV.</dd></div>
+            <div><dt>ABS</dt><dd>Pour les pièces rigides qui doivent résister à la chaleur.</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section quote" id="devis" aria-labelledby="quote-title">
+      <div class="shell quote-layout">
+        <div>
+          <p class="eyebrow">Devis</p>
+          <h2 id="quote-title">Parlons de ta pièce.</h2>
+          <p>Décris ce que tu veux fabriquer. Si tu as un fichier, une photo ou un croquis, tu peux le joindre à ton e-mail.</p>
+          <div class="contact-links">
+            <a class="text-link" href="mailto:Misstickrealms@gmail.com">Misstickrealms@gmail.com</a>
+            <a class="text-link tiktok-link" href="https://www.tiktok.com/@misstick.realms" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M13 2h4a5 5 0 0 0 5 5v4a9 9 0 0 1-5-1.5V16a6 6 0 1 1-6-6v4a2 2 0 1 0 2 2V2Z"/></svg>
+              <span>TikTok · @misstick.realms</span>
+            </a>
+          </div>
+        </div>
+        <form id="quote-form" class="quote-form" hidden>
+          <div>
+            <label for="kind">Type de projet</label>
+            <select id="kind" name="kind" required>
+              <option value="">Choisir un type</option>
+              <option>Décoration ou maquette</option>
+              <option>Objet personnalisé</option>
+              <option>Prototype</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div>
+            <label for="size">Dimensions approximatives <span>(facultatif)</span></label>
+            <input id="size" name="size" type="text" maxlength="120" placeholder="Ex. 15 × 10 cm">
+          </div>
+          <div>
+            <label for="description">Description du projet</label>
+            <textarea id="description" name="description" rows="4" maxlength="1600" required placeholder="Usage, quantité, finition souhaitée…"></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Préparer mon e-mail</button>
+          <div class="draft" id="draft" hidden>
+            <label for="draft-text">Brouillon de la demande</label>
+            <textarea id="draft-text" rows="7" readonly></textarea>
+            <a class="text-link" id="open-mail" href="mailto:Misstickrealms@gmail.com">Ouvrir dans ma messagerie</a>
+            <p>Tu peux aussi copier le brouillon ci-dessus.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="#accueil">
+        <img src="assets/logo.webp" width="38" height="38" alt="">
+        <span>Misstick Realms</span>
+      </a>
+      <a class="text-link" href="../index.html">Voir le portfolio 3D</a>
+    </div>
+  </footer>
+</body>
+</html>
